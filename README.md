@@ -3,4 +3,5 @@ My Arch Linux dotfiles
 
 ### Waybar
 
-## Rofi Wayland
+### Rofi Wayland
+Theme: fullscreen-preview by Dave Davenport
