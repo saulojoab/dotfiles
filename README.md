@@ -13,4 +13,5 @@ SDDM with https://github.com/Keyitdev/sddm-astronaut-theme/tree/master/Themes
 
 ### APP LANCHER: Walker
 
-https://github.com/abenz1267/walker
+https://github.com/abenz1267/walker 
+- easy install with `yay -S walker-bin`
