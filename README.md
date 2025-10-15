@@ -10,3 +10,7 @@ Theme: fullscreen-preview by Dave Davenport
 ### Display Manager
 
 SDDM with https://github.com/Keyitdev/sddm-astronaut-theme/tree/master/Themes
+
+### APP LANCHER: Walker
+
+https://github.com/abenz1267/walker
