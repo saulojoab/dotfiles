@@ -1,60 +1,60 @@
-[!center] # dotfiles ⚙️
+<center><samp>dotfiles ⚙️</samp></center>
 
-A curated set of Arch Linux dotfiles and configuration for Hyprland, Waybar, Kitty, Nautilus and other desktop components.
+<samp>A curated set of Arch Linux dotfiles and configuration for Hyprland, Waybar, Kitty, Nautilus and other desktop components.</samp>
 
-## Table of contents
+## <samp>Table of contents</samp>
 
-- Waybar 🧭
-- App launcher — Walker 🚀
-- File manager — Nautilus 📁
-- Wallpaper — Hyprpaper 🖼️
-- External libraries 📦
+- <samp>Waybar 🧭</samp>
+- <samp>App launcher — Walker 🚀</samp>
+- <samp>File manager — Nautilus 📁</samp>
+- <samp>Wallpaper — Hyprpaper 🖼️</samp>
+- <samp>External libraries 📦</samp>
 
-## Waybar 🧭
+## <samp>Waybar 🧭</samp>
 
-Configuration for Waybar is a modified version of:
+<samp>Configuration for Waybar is a modified version of:</samp>
 
 https://github.com/UnFunnyGuy/hyprland-dots/tree/master/waybar
 
-## App launcher — Walker 🚀
+## <samp>App launcher — Walker 🚀</samp>
 
-Walker is the launcher I use. Install it from the AUR:
+<samp>Walker is the launcher I use. Install it from the AUR:</samp>
 
 ```bash
 yay -S walker-bin elephant elephant-providerlist elephant-desktopapplications
 ```
 
-Enable the Elephant service:
+<samp>Enable the Elephant service:</samp>
 
 ```bash
 elephant service enable
 ```
 
-## File manager — Nautilus 📁
+## <samp>File manager — Nautilus 📁</samp>
 
-Nautilus is the default file manager in this setup.
+<samp>Nautilus is the default file manager in this setup.</samp>
 
-Package:
+<samp>Package:</samp>
 https://archlinux.org/packages/extra/x86_64/nautilus/
 
-Theme: Orchis-Dark
+<samp>Theme: Orchis-Dark</samp>
 
-Install the theme and open the theme folder:
+<samp>Install the theme and open the theme folder:</samp>
 
 ```bash
 sudo pacman -S orchis-theme
 code /usr/share/themes
 ```
 
-Tip: to make the Orchis-Dark background slightly transparent you can replace occurrences of `#2C2C2C` with `rgba(22, 22, 22, 0.8)` in the theme files — this makes the window background translucent. (You may need to tweak other elements separately.)
+<samp>Tip: to make the Orchis-Dark background slightly transparent you can replace occurrences of `#2C2C2C` with `rgba(22, 22, 22, 0.8)` in the theme files — this makes the window background translucent. (You may need to tweak other elements separately.)</samp>
 
-## Wallpaper 🖼️
+## <samp>Wallpaper 🖼️</samp>
 
-Hyprpaper is used to manage wallpapers.
+<samp>Hyprpaper is used to manage wallpapers.</samp>
 
-## External libraries (quick list) 📦
+## <samp>External libraries (quick list) 📦</samp>
 
-These are external packages I commonly use, check each project's page for additional dependencies:
+<samp>These are external packages I commonly use, check each project's page for additional dependencies:</samp>
 
 ```bash
 pwvucontrol
@@ -67,7 +67,7 @@ swaync
 hyprpicker
 ```
 
-## Notes 📝
+## <samp>Notes 📝</samp>
 
-- Most config files live in this repository under their respective folders (e.g. `waybar/`, `hypr/`, `kitty/`, `waybar/configs/`).
-- If you want me to tidy or standardize any specific config (syntax, variables, or install scripts), tell me which one and I can update it.
+- <samp>Most config files live in this repository under their respective folders (e.g. `waybar/`, `hypr/`, `kitty/`, `waybar/configs/`).</samp>
+- <samp>If you want me to tidy or standardize any specific config (syntax, variables, or install scripts), tell me which one and I can update it.</samp>
