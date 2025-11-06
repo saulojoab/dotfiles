@@ -19,6 +19,16 @@ elephant service enable
 
 ### FILE MANAGER: Nautilus
 https://archlinux.org/packages/extra/x86_64/nautilus/
-TODO: theme theme from https://www.gnome-look.org/browse?cat=135&ord=latest
+- THEME: Orchis-Dark
+```bash
+# Install the theme
+sudo pacman -S orchis-theme
+
+# Open theme folder with vscode
+code /usr/share/themes
+
+# Replace all instances of #2C2C2C on Orchis-Dark with rgba(22, 22, 22, 0.8)
+# This will make the background transparent. TODO: figure out how to make other parts transparent.
+```
 
 ### WALLPAPER: Hyprpaper
