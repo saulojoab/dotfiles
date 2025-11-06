@@ -19,3 +19,5 @@ elephant service enable
 
 ### FILE MANAGER: Nautilus
 TODO: theme theme from https://www.gnome-look.org/browse?cat=135&ord=latest
+
+### WALLPAPER: Hyprpaper
