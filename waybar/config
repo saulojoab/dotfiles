@@ -1,0 +1,89 @@
+{
+  "include": [
+    "~/.config/waybar/configs/custom_modules/launcher",
+    "~/.config/waybar/configs/custom_modules/modules",
+    "~/.config/waybar/configs/custom_modules/privacy_container",
+    "~/.config/waybar/configs/custom_modules/system_container",
+    "~/.config/waybar/configs/custom_modules/app_title"
+  ],
+  "layer": "top",
+  "position": "bottom",
+  "height": 30,
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-bottom": 0,
+  "margin-right": 0,
+  "spacing": 0,
+  "modules-left": [
+    "group/launcher",
+    "hyprland/workspaces",
+    "custom/arrow-dec",
+    "group/app-title-container"
+  ],
+  "modules-center": [
+    "group/privacy-container"
+  ],
+  "modules-right": [
+    "cpu",
+    "custom/dot",
+    "memory",
+    "custom/dot",
+    "network",
+    "custom/dot",
+    "group/system-container"
+  ],
+  "hyprland/workspaces": {
+    "all-outputs": false,
+    "active-only": false,
+    "on-click": "activate",
+    "format": "{name}",
+    "format-window-separator": " ",
+    "window-rewrite-default": "",
+    "window-rewrite": {
+      "title<.*youtube.*>": "",
+      "title<.*twitch.*>": "",
+      "class<firefox>": "",
+      "class<firefox> title<.*github.*>": "",
+      "class<foot>": "",
+      "class<code>": "",
+      "class<android>": "",
+      "class<kitty>": "",
+      "class<spotify>": "",
+      "class<discord>": "",
+      "class<steam>": ""
+    },
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "disable-scroll": false,
+    "sort-by-number": true
+  },
+  "hyprland/window": {
+    "format": "{}",
+    "icon": false,
+    "separate-outputs": true,
+    "max-length": 70
+  },
+  "tray": {
+    "icon-size": 28,
+    "spacing": 8
+  },
+  "cpu": {
+    "interval": 5,
+    "format": " <b>{usage}%</b>",
+    "max-length": 10,
+    "on-click": "",
+    "tooltip": false
+  },
+  "memory": {
+    "interval": 60,
+    "format": " <b>{used}G</b>",
+    "max-length": 10,
+    "tooltip": false
+  },
+  "network": {
+    "format-wifi": " <b>{essid}</b>",
+    "format-ethernet": " <b>Ethernet</b>",
+    "tooltip": true,
+    "format-disconnected": ""
+  }
+}

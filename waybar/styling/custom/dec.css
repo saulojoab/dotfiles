@@ -1,0 +1,16 @@
+@import "../colors-waybar.css";
+
+label#custom-dot-alt {
+  color: @mono-white;
+}
+
+label#custom-dot {
+  color: @mono-white;
+}
+
+label#custom-left-arrw {
+  color: @mono-white;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 15px;
+}

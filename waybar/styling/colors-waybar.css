@@ -1,0 +1,21 @@
+@import "themes/Madness.css";
+/**
+Change import to switch theme
+**/
+
+@define-color mono-black #000000;
+@define-color mono-dark-gray #222222;
+@define-color mono-gray #555555;
+@define-color mono-light-gray #aaaaaa;
+@define-color mono-silver #cccccc;
+@define-color mono-white #ffffff;
+@define-color mono-charcoal #333333;
+@define-color mono-gainsboro #e0e0e0;
+@define-color mono-smoke #f5f5f5;
+
+@define-color mono-steel #444444;
+@define-color mono-ash #888888;
+@define-color mono-platinum #e5e5e5;
+@define-color mono-slate #666666;
+@define-color mono-pearl #f0f0f0;
+@define-color mono-onyx #111111;

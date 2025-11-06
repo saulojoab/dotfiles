@@ -1,0 +1,27 @@
+#workspaces {
+  padding: 0 10px;
+}
+
+#workspaces button {
+  color: #aaaaaa;
+  padding: 0 6px;
+  margin: 0 2px;
+  border: none;
+  background: transparent;
+  font-weight: 500;
+}
+
+#workspaces button.active {
+  color: #98ff98; /* Verde neon suave */
+  font-weight: bold;
+}
+
+#workspaces button.urgent {
+  color: #ff5555;
+}
+
+#workspaces button:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+}

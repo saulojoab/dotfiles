@@ -1,0 +1,18 @@
+@import "./styling/colors-waybar.css";
+@import "./styling/workspace.css";
+@import "./styling/custom/dec.css";
+@import "./styling/bar.css";
+@import "./styling/general.css";
+@import "./styling/stock.css";
+@import "./styling/custom/launcher.css";
+@import "./styling/custom/battery.css";
+@import "./styling/custom/apptitle.css";
+@import "./styling/custom/clock.css";
+@import "./styling/custom/privacycontainer.css";
+@import "./styling/custom/systemcontainer.css";
+
+* {
+  border: none;
+  font-family: FiraCode Nerd Font;
+  font-size: 12px;
+}

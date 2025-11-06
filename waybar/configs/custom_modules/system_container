@@ -1,0 +1,69 @@
+{
+  "group/system-container": {
+    "orientation": "horizontal",
+    "modules": [
+      "group/pacman-grp",
+      "custom/dot",
+      "group/pulseaudio-grp",
+      "custom/dot",
+      "clock"
+    ]
+  },
+  "group/pacman-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/pacman-update",
+      "custom/pacman-update#text"
+    ]
+  },
+  "group/pulseaudio-grp": {
+    "orientation": "horizontal",
+    "modules": [
+      "pulseaudio",
+      "pulseaudio#text"
+    ]
+  },
+  "custom/pacman-update": {
+    "format": "󰊠 ",
+    "tooltip": false
+  },
+  "custom/pacman-update#text": {
+    "format": "<b>{}</b>",
+    "interval": 60,
+    "exec": "~/.config/waybar/scripts/pacman-update-icon.sh",
+    "tooltip": false,
+    "return-type": "json"
+  },
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-bluetooth-muted": "{icon}",
+    "tooltip": false,
+    "format-muted": " ",
+    "format-icons": {
+      "headphone": " ",
+      "hands-free": "󰥰 ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": " ",
+      "default": [
+        " ",
+        " ",
+        " "
+      ]
+    },
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
+  "pulseaudio#text": {
+    "tooltip": false,
+    "format": "<b>{volume}</b>",
+    "format-bluetooth": "<b>{volume}</b>",
+    "on-click": "pwvucontrol"
+  },
+  "clock": {
+    "format": "  <b>{:%I:%M %p}</b>",
+    "format-alt": "  <b>{:%a.%d,%b}</b>",
+    "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
+  }
+}
