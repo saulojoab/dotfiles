@@ -18,6 +18,7 @@ elephant service enable
 ```
 
 ### FILE MANAGER: Nautilus
+https://archlinux.org/packages/extra/x86_64/nautilus/
 TODO: theme theme from https://www.gnome-look.org/browse?cat=135&ord=latest
 
 ### WALLPAPER: Hyprpaper
