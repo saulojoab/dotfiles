@@ -1,4 +1,6 @@
-<center><samp>dotfiles ⚙️</samp></center>
+# <center><samp>dotfiles ⚙️</samp></center>
+
+<img width="1920" height="1081" alt="image" src="https://github.com/user-attachments/assets/2a30d3d0-19c6-45c8-b6e4-2a60716bd33a" />
 
 <samp>A curated set of Arch Linux dotfiles and configuration for Hyprland, Waybar, Kitty, Nautilus and other desktop components.</samp>
 
