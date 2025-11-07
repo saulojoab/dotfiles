@@ -4,10 +4,6 @@ My Arch Linux dotfiles
 ### Waybar
 https://github.com/UnFunnyGuy/hyprland-dots/tree/master/waybar
 
-### Display Manager
-
-SDDM with https://github.com/Keyitdev/sddm-astronaut-theme/tree/master/Themes
-
 ### APP LANCHER: Walker
 
 https://github.com/abenz1267/walker 
