@@ -12,6 +12,12 @@
 - <samp>Wallpaper — Hyprpaper 🖼️</samp>
 - <samp>External libraries 📦</samp>
 
+## <samp>Display Manager 🖥️</samp>
+
+<samp>I am currently using SDDM. You can find the base theme I used below:</samp>
+
+https://github.com/Keyitdev/sddm-astronaut-theme
+
 ## <samp>Waybar 🧭</samp>
 
 <samp>Configuration for Waybar is a modified version of:</samp>
