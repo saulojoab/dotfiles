@@ -6,6 +6,8 @@
       "custom/dot",
       "group/pulseaudio-grp",
       "custom/dot",
+      "bluetooth",
+      "custom/dot",
       "clock"
     ]
   },
@@ -61,8 +63,15 @@
     "format-bluetooth": "<b>{volume}</b>",
     "on-click": "pwvucontrol"
   },
+  "bluetooth": {
+    "format-connected": " {device_alias}",
+    "format-disconnected": " Disconnected",
+    "tooltip": false,
+    "on-click": "blueman-manager"
+  },
   "clock": {
     "format": "  <b>{:%I:%M %p}</b>",
+    "timezone": "UTC",
     "format-alt": "  <b>{:%a.%d,%b}</b>",
     "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
   }

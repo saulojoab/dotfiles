@@ -75,7 +75,7 @@
     "tooltip": false
   },
   "memory": {
-    "interval": 60,
+    "interval": 1,
     "format": " <b>{used}G</b>",
     "max-length": 10,
     "tooltip": false
